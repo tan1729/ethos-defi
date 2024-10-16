@@ -1,0 +1,11 @@
+type ReviewAdded @entity {
+    id: ID!
+    studentName: String!
+    courseName: String!
+    rating1: Int!
+    rating2: Int!
+    feedback: String!
+    blockNumber: BigInt!
+    blockTimestamp: BigInt!
+    transactionHash: Bytes!
+}

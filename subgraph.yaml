@@ -1,0 +1,26 @@
+specVersion: 0.0.4
+indexerHints:
+  prune: auto
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: Contract
+    network: development
+    source:
+      address: "0xb05F0fFccFd1cd14d4a5D534A4B768D158BCceE7"
+      abi: Contract
+      startBlock: 0
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - ReviewAdded
+      abis:
+        - name: Contract
+          file: ./abis/Contract.json
+      eventHandlers:
+        - event: ReviewAdded(string,string,uint8,uint8,string)
+          handler: handleReviewAdded
+      file: ./src/contract.ts

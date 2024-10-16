@@ -1,0 +1,8 @@
+{
+  "development": {
+    "Contract": {
+      "address": "0xB25Ded16CE5e5A8A81cfA60a2860d65362335F48",
+      "startBlock": 0
+    }
+  }
+}

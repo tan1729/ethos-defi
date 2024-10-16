@@ -1,0 +1,43 @@
+=============== Oct 16, 2024 (UTC) ===============
+10:35:48.394718 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:35:48.417666 db@open opening
+10:35:48.427181 version@stat F·[] S·0B[] Sc·[]
+10:35:48.438629 db@janitor F·2 G·0
+10:35:48.439043 db@open done T·21.049099ms
+10:35:49.362788 db@close closing
+10:35:49.364403 db@close done T·1.603864ms
+=============== Oct 16, 2024 (UTC) ===============
+10:35:49.426172 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:35:49.439804 version@stat F·[] S·0B[] Sc·[]
+10:35:49.441604 db@open opening
+10:35:49.444792 journal@recovery F·1
+10:35:49.445493 journal@recovery recovering @1
+10:35:49.464721 memdb@flush created L0@2 N·12 S·1KiB "/pi..ZmI,v10":"/pr..crQ,v12"
+10:35:49.468229 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+10:35:49.507674 db@janitor F·3 G·0
+10:35:49.507983 db@open done T·65.94922ms
+10:35:49.552073 db@close closing
+10:35:49.554412 db@close done T·2.337629ms
+=============== Oct 16, 2024 (UTC) ===============
+10:35:49.723190 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:35:49.730426 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+10:35:49.731387 db@open opening
+10:35:49.737139 journal@recovery F·1
+10:35:49.737794 journal@recovery recovering @3
+10:35:49.745166 memdb@flush created L0@5 N·6 S·1KiB "/F5..KNI,v19":"/pi..rty,v14"
+10:35:49.748616 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+10:35:49.775729 db@janitor F·4 G·0
+10:35:49.776094 db@open done T·44.186088ms
+10:35:49.826095 db@close closing
+10:35:49.827319 db@close done T·1.218567ms
+=============== Oct 16, 2024 (UTC) ===============
+10:35:49.981387 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:35:49.989921 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+10:35:49.990681 db@open opening
+10:35:49.992619 journal@recovery F·1
+10:35:49.993535 journal@recovery recovering @6
+10:35:49.996899 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+10:35:50.024321 db@janitor F·4 G·0
+10:35:50.024624 db@open done T·33.619187ms
+10:35:50.076048 db@close closing
+10:35:50.077518 db@close done T·1.466673ms
